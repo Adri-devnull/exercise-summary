@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.attenuated {
+    color: #8c8c8c;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: rgb(255, 178, 30);
+}
+
+.bgred {
+    background-color: rgb(255, 240, 240);
+}
+
+.bgyellow {
+    background-color: rgb(255, 245, 186);
+}
+
+.bggreen {
+    background-color: rgb(227, 255, 230);
+}
+
+.bgblue {
+    background-color: rgb(236, 239, 255);
+}
+
+.stats {
+    display: flex;
+    gap: 5px;
+}
+
+.bold {
+    font-weight: bold;
+    color: #303B59;
+}

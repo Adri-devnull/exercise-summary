@@ -1,0 +1,25 @@
+.font {
+    font-size: 4em;
+    margin: 0;
+}
+
+.container {
+    background-color: #2e0bba;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.attenuated {
+    color: #CAC9FF;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    gap: 5px;
+}
