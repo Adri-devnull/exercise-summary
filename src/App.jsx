@@ -1,4 +1,4 @@
-import Atributes from "./components/atributes/Atributes";
+import BoxAtributes from "./components/boxatributes/BoxAtributes";
 import Button from "./components/button/Button";
 import Information from "./components/information/Information";
 import Progress from "./components/progress/Progress";
@@ -19,10 +19,7 @@ const App = () => {
 		</Result>
 		<Stats>
 			<StatsTitle text='Summary' />
-			<Atributes bgcolor='bgred' color='red' img='./public/assets/images/icon-reaction.svg' title='Reaction' points={80} />
-			<Atributes bgcolor='bgyellow' color='yellow' img='./public/assets/images/icon-memory.svg' title='Memory' points={92} />
-			<Atributes bgcolor='bggreen' color='green' img='./public/assets/images/icon-verbal.svg' title='Verbal' points={61} />
-			<Atributes bgcolor='bgblue' color='blue' img='./public/assets/images/icon-visual.svg' title='Visual' points={73} />
+			<BoxAtributes />
 			<Button text='Continue' />
 		</Stats>
 	</Summary>;
